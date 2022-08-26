@@ -1,7 +1,11 @@
+<!--  Copyright (©) 2022. Dylan Nguyen, thedigitalchief, and subsidaries. All rights reserved.  -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en" oncontextmenu="return false">
+
 
 <head>
+
     <meta charset="utf-8">
     <title>Sherlock Code - The most advanced source code and text plagiarism verification</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -22,7 +26,221 @@
     <!-- Libraries CSS Files -->
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-
-
     <link href="css/style.css" rel="stylesheet">
+
 </head>
+
+
+
+<body>
+
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <a href="#hero"><img src="img/logo.png" alt="" title="" height="50px" width="50px" /></img></a>
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <h1>SherlockCode</h1>
+            <h2>The most advanced source code and text plagiarism verification system. Making sure your work is safe.
+            </h2>
+            <form class="abc" action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="avatar" class="btn-get-started"><i class="fa fa-upload"></i> Upload a PDF</label>
+                <input type="file" id="avatar" name="pdffile" accept="image/png, image/jpeg" required>
+                <br>
+                <label for="submit-btn" class="btn-get-started">Check Plagiarism</label>
+                <input type="submit" id="submit-btn" name="submit">
+
+            </form>
+            <style>
+
+            </style>
+        </div>
+    </section>
+
+
+    <main id="main">
+
+        <section id="about">
+            <div class="container">
+                <div class="row about-container">
+
+                    <div class="col-lg-6 content order-lg-1 order-2">
+                        <h2 class="title">About Us</h2>
+                        <p>
+                            SherlockCode, Inc. is a technology service platform that investigates and verifies if your
+                            source code, text documents, and research papers have been plagiarized. We developed an
+                            efficient machine learning system that utilizes both String Matching Algorithms and Natural
+                            Language Processing to double the verification rate.
+                        </p>
+
+                        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="icon"><i class="fa fa-check"></i></div>
+                            <h4 class="title"><a href="">Originality Verification</a></h4>
+                            <p class="description">A common situation faced by today's modern creators
+                                is to constantly verify the originality of any work. Our system thoroughly interogates
+                                your work and will provide a detailed report of any potentially stolen material. </p>
+                        </div>
+
+                        <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="icon"><i class="fa fa-check"></i></div>
+                            <h4 class="title"><a href="">Tracking Content Misuse</a></h4>
+                            <p class="description">Making sure your material is not being misused on the internet is
+                                stressful and unneccesary. SherlockCode not only returns one accurate result, but rather
+                                produces a report showing every available result.</p>
+                        </div>
+
+                        <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"><i class="fa fa-check"></i></div>
+                            <h4 class="title"><a href=""></a>Deep Contextual Analysis</h4>
+                            <p class="description">Our systems are able to reduced the field of candidates down to a
+                                single document. If you are suspecting several different parties, we provide the tools
+                                to decisively confirm those suspicions and find the culprit.</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+                </div>
+
+            </div>
+        </section>
+        </section>
+
+
+        <section id="features">
+            <div class="container wow fadeIn">
+                <div class="section-header">
+                    <h3 class="section-title">Features</h3>
+                    <p class="section-description">Features of SherlockCode</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="fa fa-file-text-o"></i></a></div>
+                            <h4 class="title"><a href="">PDF</a></h4>
+                            <p class="description">Completely comppatible with PDF documents.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="fa fa-align-center"></i></a></div>
+                            <h4 class="title"><a href="">TEXT</a></h4>
+                            <p class="description">Text based input is no issue for us.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="fa fa-external-link"></i></a></div>
+                            <h4 class="title"><a href="">URL</a></h4>
+                            <p class="description">We can solve any case, even website URLs. Our system will return the
+                                URL address of matched web pages and/or PDF documents in order to indentify the true
+                                source of copied material.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="fa fa-bar-chart-o"></i></a></div>
+                            <h4 class="title"><a href="">Sherlock Score</a></h4>
+                            <p class="description">We provide a convenient, yet powerful percentage score for any
+                                matched corpus of text. </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="team">
+            <div class="container wow fadeInUp">
+                <div class="section-header">
+                    <h3 class="section-title">Our Team</h3>
+                    <p class="section-description">Developed by Dylan Nguyen.</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="Dylan profile pic"><img src="<profile pic>" alt=""></div>
+                            <h4>Dylan Nguyen</h4>
+                            <span>Computer Science Undergraduate</span>
+                            <span>thedigitalchief</span>
+                            <div class="social">
+
+                                <a href="https://www.linkedin.com/in/dylanhnguyen/" target="_blank"><i
+                                        class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/thedigitalchief" target="_blank"><i
+                                        class="fa fa-github"></i></a>
+                                <a href="https://twitter.com/creadylan" target="_blank"><i
+                                        class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/dylannguyenn target=" _blank"><i
+                                        class="fa fa-facebook"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+ <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+
+<!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+<!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+    
+</body>
+
+</html>
