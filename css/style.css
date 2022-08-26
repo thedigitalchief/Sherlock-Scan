@@ -1,3 +1,6 @@
+@import url("iconic/css/iconmonstr-iconic-font.min.css");
+@import url("fonts.css");
+
 body {
   background: #fff;
   color: #464646;
@@ -21,8 +24,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-family: "montserrat-medium", sans-serif;
+  color: #0D0A0B;
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -454,7 +460,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* About Us Section */
 #about {
-  background: #fff;
+  background: #f1f1f1f1;
   padding: 80px 0;
 }
 
@@ -467,12 +473,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .content {
   background: #fff;
+  
 }
 
 #about .about-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -483,6 +491,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container p {
   line-height: 26px;
+  border-radius: 10px;
 }
 
 #about .about-container p:last-child {
@@ -493,6 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
+  
 }
 
 #about .about-container .icon-box .icon {
@@ -562,10 +572,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
-  border: 1px solid #e6e6e6;
+  border: 2px solid #e6e6e6;
   height: 200px;
   position: relative;
   background: #fafafa;
+  border-radius: 14px;
 }
 
 #features .icon {
@@ -582,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #00316E;
+  background: #094997;
 }
 
 #features .icon a {
@@ -912,11 +923,11 @@ footer a:focus {
 }
 
 .s-contact .section-intro h1 {
-  color: #F2F3F5;
+  color: #3c424d;
 }
 
 .s-contact .section-intro p {
-  color: rgba(255, 255, 255, 0.619);
+  color: rgba(84, 67, 67, 0.619);
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
@@ -944,8 +955,9 @@ footer a:focus {
   letter-spacing: .1rem;
   padding: 0 2rem;
   margin: 0;
-  color: #F2F3F5;
+  color: #6b7280;
   background: #00316E;
+  border-radius: 8px;
 }
 
 .s-contact .form-field label::after {
@@ -957,6 +969,7 @@ footer a:focus {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-right: 5px solid #00316E;
+  border-radius: 8px;
 }
 
 .contact__main {
@@ -965,7 +978,7 @@ footer a:focus {
 }
 
 .contact__main h4 {
-  color: #F2F3F5;
+  color: #373b42;
 }
 
 .contact__infos {
@@ -985,7 +998,8 @@ footer a:focus {
   background-color: transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.56);
   margin-bottom: .9rem;
-  color: rgb(255, 255, 255);
+  color: rgb(71, 55, 55);
+  border-radius: 9px;
 }
 
 .contact__form input[type="email"]:focus,
@@ -994,20 +1008,23 @@ footer a:focus {
 .contact__form input[type="tel"]:focus,
 .contact__form input[type="url"]:focus,
 .contact__form textarea:focus {
-  color: white;
-  border-bottom: 1px solid #F2F3F5;
+  color: rgb(105, 96, 96);
+  border-bottom: 1px solid #7a808e;
+  border-radius: 10px;
 }
 
 .contact__form button {
   margin-top: 4.2rem;
-  background-color: #00316E;
-  border-color: #00316E;
+  background-color: #11488b;
+  border-color: #204778;
+  border-radius: 10px;
+  color:#f1f1f1f1;
 }
 
 .message-warning,
 .message-success {
   display: none;
-  background: #0D0A0B;
+  background: #191416;
   font-size: 1.5rem;
   line-height: 2;
   padding: 3rem;
@@ -1057,4 +1074,30 @@ footer a:focus {
 
 .oldie .submit-loader .text-loader {
   display: block;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive: Contact
+ * ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 800px) {
+  .contact__form {
+    padding-right: 15px;
+  }
+
+  .contact__infos {
+    padding-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact__form {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact__form {
+    padding-right: 0;
+  }
 }
