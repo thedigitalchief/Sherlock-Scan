@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 50px;
-  transition: 0.5s;
+  transition: 0.65s;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
@@ -284,8 +284,8 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul li a {
   padding: 10px;
   color: #333;
-  transition: 0.3s;
+  transition: 0.45s;
   display: block;
   font-size: 13px;
   text-transform: none;
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   font-size: 24px;
   display: none;
-  transition: all 0.4s;
+  transition: all 0.55s;
   outline: none;
   cursor: pointer;
 }
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
   left: -260px;
   width: 260px;
   overflow-y: auto;
-  transition: 0.4s;
+  transition: 0.58s;
 }
 
 #mobile-nav ul {
@@ -572,7 +572,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
-  transition: 0.2s;
+  transition: 0.4s;
   border-radius: 50%;
   border: 6px solid #fff;
   display: flex;
@@ -815,8 +815,8 @@ footer a:focus {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   text-transform: uppercase;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .go-top a i,
