@@ -7,7 +7,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Sherlock Code - The most advanced source code and text plagiarism verification</title>
+    <title>Sherlock Code - The most advanced plagiarism verification</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -27,6 +27,12 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!--Scroll Reveal.js-->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
 
 </head>
 
@@ -37,33 +43,35 @@
     <header id="header">
         <div class="container">
 
-            <div id="logo" class="pull-left">
-                <a href="#hero"><img src="img/logo.png" alt="" title="" height="50px" width="50px" /></img></a>
+            <div id="logo" class="pull-left scroll-reveal-title">
+                <a href="#hero"><img src="img/logo.png" alt="" title="" height="40px" width="40px" /></img></a>
             </div>
 
             <nav id="nav-menu-container">
-                <ul class="nav-menu">
+                <ul class="nav-menu scroll-reveal-title">
                     <li class="menu-active"><a href="#hero">Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#team">Team</a></li>
+                    <li><a href="#team">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <section id="hero">
-        <div class="hero-container">
-            <h1>SherlockCode</h1>
-            <h2>The most advanced source code and text plagiarism verification system. Making sure your work is safe.
+        <div class="hero-container scroll-reveal-title">
+            <h1>SherlockCode</h1><br>
+            <h2>The most advanced plagiarism verification system. 
+                <br> Specifically designed for source code and online material.
             </h2>
             <form class="abc" action="/upload" method="POST" enctype="multipart/form-data">
-                <label for="avatar" class="btn-get-started"><i class="fa fa-upload"></i> Upload a PDF</label>
-                <input type="file" id="avatar" name="pdffile" accept="image/png, image/jpeg" required>
                 <br>
-                <label for="submit-btn" class="btn-get-started">Check Plagiarism</label>
+                 <label for="submit-btn" class="btn-get-started scroll-reveal-paragraph">Investigate Plagiarism</label>
                 <input type="submit" id="submit-btn" name="submit">
+                <br>
 
+                <label for="avatar" class="btn-get-started"><i class="fa fa-upload scroll-reveal-paragraph"></i>Upload a PDF</label>
+                <input type="file" id="avatar" name="pdffile" accept="image/png, image/jpeg" required>
             </form>
             <style>
 
@@ -79,15 +87,13 @@
                 <div class="row about-container">
 
                     <div class="col-lg-6 content order-lg-1 order-2">
-                        <h2 class="title">About Us</h2>
-                        <p>
-                            SherlockCode, Inc. is a technology service platform that investigates and verifies if your
-                            source code, text documents, and research papers have been plagiarized. We developed an
-                            efficient machine learning system that utilizes both String Matching Algorithms and Natural
-                            Language Processing to double the verification rate.
+                        <h2 class="title scroll-reveal-title">About </h2>
+                        <p class = "scroll-reveal-paragraph">SherlockCode, Inc. is an information technology software service platform that investigates and verifies whether your work has been plagiarized. We have developed an incredibly
+                            efficient machine learning algorithm that utilizes both String Matching and Natural
+                            Language Processing to increase the verification rate.
                         </p>
 
-                        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon-box wow scroll-reveal-paragraph" data-wow-delay="0.3s">
                             <div class="icon"><i class="fa fa-check"></i></div>
                             <h4 class="title"><a href="">Originality Verification</a></h4>
                             <p class="description">A common situation faced by today's modern creators
@@ -95,7 +101,7 @@
                                 your work and will provide a detailed report of any potentially stolen material. </p>
                         </div>
 
-                        <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="icon-box scroll-reveal-paragraph" data-wow-delay="0.3s">
                             <div class="icon"><i class="fa fa-check"></i></div>
                             <h4 class="title"><a href="">Tracking Content Misuse</a></h4>
                             <p class="description">Making sure your material is not being misused on the internet is
@@ -103,14 +109,13 @@
                                 produces a report showing every available result.</p>
                         </div>
 
-                        <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="icon-box scroll-reveal-paragraph" data-wow-delay="0.5s">
                             <div class="icon"><i class="fa fa-check"></i></div>
-                            <h4 class="title"><a href=""></a>Deep Contextual Analysis</h4>
+                            <h4 class="title"><a href=""></a>Deep Source Analysis</h4>
                             <p class="description">Our systems are able to reduced the field of candidates down to a
                                 single document. If you are suspecting several different parties, we provide the tools
                                 to decisively confirm those suspicions and find the culprit.</p>
                         </div>
-
 
                     </div>
 
@@ -124,42 +129,41 @@
 
         <section id="features">
             <div class="container wow fadeIn">
-                <div class="section-header">
-                    <h3 class="section-title">Features</h3>
-                    <p class="section-description">Features of SherlockCode</p>
+                <div class="section-header scroll-reveal-title">
+                    <h3 class="section-title ">Features</h3>
+                    <p class="section-description">Our state-of-the-art plagiarism technology</p>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.4s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-file-text-o"></i></a></div>
                             <h4 class="title"><a href="">PDF</a></h4>
-                            <p class="description">Completely comppatible with PDF documents.</p>
+                            <p class="description">Completely comppatible with PDF documents. Often used in academic environments.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.6s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-align-center"></i></a></div>
-                            <h4 class="title"><a href="">TEXT</a></h4>
-                            <p class="description">Text based input is no issue for us.</p>
+                            <h4 class="title"><a href="">Text</a></h4>
+                            <p class="description">Don't have a PDF? No problem, text based inputs are perfectly good too. </p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.6s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-external-link"></i></a></div>
                             <h4 class="title"><a href="">URL</a></h4>
-                            <p class="description">We can solve any case, even website URLs. Our system will return the
-                                URL address of matched web pages and/or PDF documents in order to indentify the true
-                                source of copied material.</p>
+                            <p class="description">Our system will return the
+                                URL address of matched web pages and material with accurate identification.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.5s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-bar-chart-o"></i></a></div>
-                            <h4 class="title"><a href="">Sherlock Score</a></h4>
+                            <h4 class="title"><a href="">Sherlock Score™️</a></h4>
                             <p class="description">We provide a convenient, yet powerful percentage score for any
                                 matched corpus of text. </p>
                         </div>
@@ -170,34 +174,78 @@
         </section>
 
 
+        
         <section id="team">
-            <div class="container wow fadeInUp">
+            <div class="container scroll-reveal-paragraph fadeInUp">
                 <div class="section-header">
-                    <h3 class="section-title">Our Team</h3>
-                    <p class="section-description">Developed by Dylan Nguyen.</p>
+                    <h3 class="section-title">Contact</h3>
+                    <p class="section-description">If anything here interests you, please feel free to reach out.</p>
                 </div>
 
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="Dylan profile pic"><img src="<profile pic>" alt=""></div>
-                            <h4>Dylan Nguyen</h4>
-                            <span>Computer Science Undergraduate</span>
-                            <span>thedigitalchief</span>
-                            <div class="social">
-
-                                <a href="https://www.linkedin.com/in/dylanhnguyen/" target="_blank"><i
-                                        class="fa fa-linkedin"></i></a>
-                                <a href="https://github.com/thedigitalchief" target="_blank"><i
-                                        class="fa fa-github"></i></a>
-                                <a href="https://twitter.com/creadylan" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/dylannguyenn target=" _blank"><i
-                                        class="fa fa-facebook"></i></a>
-
-                            </div>
+                <div class="row contact__main">
+                
+                    <div class="col-eight tab-full contact__form scroll-reveal-contact">
+                        <form name="contactForm" id="contactForm" method="post" action="">
+                            <fieldset>
+                
+                                <div class="form-field scroll-reveal">
+                                    <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+                                        required="" aria-required="true" class="full-width">
+                                </div>
+                                <div class="form-field scroll-reveal">
+                                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required=""
+                                        aria-required="true" class="full-width">
+                                </div>
+                                <div class="form-field scroll-reveal">
+                                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                                        class="full-width">
+                                </div>
+                                <div class="form-field scroll-reveal">
+                                    <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="8" cols="50"
+                                        required="" aria-required="true" class="full-width"></textarea>
+                                </div>
+                
+                                <div class="form-field scroll-reveal-contact">
+                                    <button class="full-width btn--primary">Submit</button>
+                                    <div class="submit-loader">
+                                        <div class="text-loader">Sending...</div>
+                                        <div class="s-loader">
+                                            <div class="bounce1"></div>
+                                            <div class="bounce2"></div>
+                                            <div class="bounce3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </fieldset>
+                        </form>
+                
+                        <!-- contact-warning -->
+                        <div class="message-warning">
+                            Something went wrong. Please try again.
                         </div>
+                
+                        <!-- contact-success -->
+                        <div class="message-success">
+                            Your message was sent, thank you!<br>
+                        </div>
+                    </div>
+                
+                
+                    <div class="col-four tab-full contact__infos">
+                        <h5 class="h06m scroll-reveal-contact">Phone</h5>
+                        <p> <a href="tel:9498422889">
+                                <font color="#000000"><small>949.842.2889</small></font> <br>
+                            </a>
+                        </p>
+                
+                        <h5 class="h06 scroll-reveal-contact">Email</h5>
+                        <p> <a href="mailto: me@dylanhnguyen.com">
+                                <font color="#000000"><small>me@dylanhnguyen.com</small></font> <br>
+                            </a>
+                        </p>
+                
+                        
                     </div>
                 </div>
             </div>
@@ -208,14 +256,58 @@
 
 
 
- <!-- footer -->
+
+
+<!-- footer ================================================== -->
+<footer>
+    <div class="row">
+        <div class="col-full">
+
+            <div class="footer-logo scroll-reveal-title">
+                <a class="footer-site-logo" href="#0"><img width = "50px" height = "50px" src="img/logo.png" alt=""></a>
+            </div>
+
+            <ul class="footer-social">
+                <div class="social scroll-reveal-title">  
+                    <a href="https://www.linkedin.com/in/dylanhnguyen/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/thedigitalchief" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://twitter.com/creadylan" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/dylannguyenn target=" _blank"><i class="fa fa-facebook"></i></a>
+                
+                </div>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div class="row footer-bottom">
+
+        <div class="col-twelve">
+            <div class="copyright">
+                <span>Fully developed by <a href="https://dylanhnguyen.com/">Dylan Nguyen</a></span>
+                <span>Copyright © 2022 All rights reserved.</span>
+            </div>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+    </div> <!-- end footer-bottom -->
+
+</footer> <!-- end footer -->
+
+
+ <!-- footer
     <footer id="footer">
         <div class="footer-top">
             <div class="container">
 
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 
 
@@ -223,24 +315,159 @@
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+
 <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="js/plugins.js"></script>
 
-<!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
 
-<!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
 
-    
+    <!-- React.JS  -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- To Load our React component. 
+            <script src="my_component.js"></script>
+            <script src="like_button.js"></script> -->
+
+    <!-- JSX -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/superfish/hoverIntent.js"></script>
+        <script src="lib/superfish/superfish.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+        <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+        <script src="js/main.js"></script>
+
+        <script>
+            ScrollReveal().reveal('.scroll-reveal', {
+                distance: '50px',
+                duration: 1000,
+                easing: 'ease-in-out',
+                mobile: true,
+                origin: 'bottom',
+                reset: true,
+                viewFactor: 0.4,
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-experience', {
+                duration: 1000,
+                scale: 1,
+                mobile: true,
+                distance: '20px',
+                origin: 'top',
+                reset: true,
+                easing: 'ease-in-out',
+                viewFactor: 0.2,
+
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-project', {
+                duration: 1000,
+                scale: 1,
+                mobile: true,
+                distance: '20px',
+                origin: 'top',
+                reset: true,
+                easing: 'ease',
+                viewFactor: 0.2,
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-title', {
+                duration: 1200,
+                scale: 1,
+                mobile: true,
+                distance: '25px',
+                origin: 'bottom',
+                reset: false,
+                easing: 'ease-in-out',
+                viewFactor: 0.2,
+
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-paragraph', {
+                duration: 1200,
+                scale: 1,
+                mobile: true,
+                distance: '20px',
+                origin: 'top',
+                reset: true,
+                easing: 'ease',
+                viewFactor: 0.2,
+
+            });
+
+
+            ScrollReveal().reveal('.scroll-reveal-pic', {
+                duration: 1000,
+                scale: 1,
+                mobile: true,
+                distance: '15px',
+                origin: 'top',
+                reset: false,
+                easing: 'ease',
+                viewFactor: 0.2,
+
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-contact', {
+                duration: 1300,
+                scale: 1,
+                mobile: true,
+                distance: '15px',
+                origin: 'top',
+                reset: false,
+                easing: 'ease',
+                viewFactor: 0.2,
+            });
+
+
+            ScrollReveal().reveal('.scroll-reveal-stats', {
+                duration: 1500,
+                scale: 1,
+                mobile: true,
+                distance: '80px',
+                origin: 'bottom',
+                reset: false,
+                easing: 'ease-in-out',
+                viewFactor: 0.3,
+            });
+
+            ScrollReveal().reveal(".slide-right", {
+                duration: 1300,
+                origin: "top",
+                mobile: false,
+                distance: "5px",
+                easing: "ease",
+                reset: true,
+                viewFactor: 0.2,
+            });
+
+            ScrollReveal().reveal(".slide-left", {
+                duration: 1300,
+                origin: "top",
+                mobile: false,
+                distance: "5px",
+                easing: "ease",
+                reset: true,
+                viewFactor: 0.2,
+            });
+
+        </script>
+
+
 </body>
 
 </html>
+
+
+<!--  Copyright (©) 2022. Dylan Nguyen, thedigitalchief, and subsidaries. All rights reserved.  -->
