@@ -1,6 +1,21 @@
 @import url("iconic/css/iconmonstr-iconic-font.min.css");
 @import url("fonts.css");
 
+
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 9.375px;
+  }
+
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
 body {
   background: #fff;
   color: #464646;
@@ -1021,7 +1036,7 @@ footer a:focus {
   background-color: #11488b;
   border-color: #204778;
   border-radius: 8px;
-  color:#f1f1f1f1;
+  color:#fafafafa;
 }
 
 .message-warning,

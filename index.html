@@ -29,8 +29,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
 
     <!--Scroll Reveal.js-->
     <script src="https://unpkg.com/scrollreveal@4"></script>
@@ -44,7 +43,7 @@
     <header id="header">
         <div class="container">
 
-            <div id="logo" class="pull-left">
+            <div id="logo" class="pull-left scroll-reveal-title">
                 <a href="#hero"><img src="img/logo.png" alt="" title="" height="40px" width="40px" /></img></a>
             </div>
 
@@ -60,18 +59,18 @@
     </header>
 
     <section id="hero">
-        <div class="hero-container">
+        <div class="hero-container scroll-reveal-title">
             <h1>SherlockCode</h1><br>
             <h2>The most advanced plagiarism verification system. 
                 <br> Specifically designed for source code and online material.
             </h2>
             <form class="abc" action="/upload" method="POST" enctype="multipart/form-data">
                 <br>
-
-                 <label for="submit-btn" class="btn-get-started">Investigate Plagiarism</label>
+                 <label for="submit-btn" class="btn-get-started scroll-reveal-paragraph">Investigate Plagiarism</label>
                 <input type="submit" id="submit-btn" name="submit">
                 <br>
-                <label for="avatar" class="btn-get-started"><i class="fa fa-upload"></i> Upload a PDF</label>
+
+                <label for="avatar" class="btn-get-started"><i class="fa fa-upload scroll-reveal-paragraph"></i> Upload a PDF</label>
                 <input type="file" id="avatar" name="pdffile" accept="image/png, image/jpeg" required>
             </form>
             <style>
@@ -88,13 +87,13 @@
                 <div class="row about-container">
 
                     <div class="col-lg-6 content order-lg-1 order-2">
-                        <h2 class="title">About </h2>
-                        <p>SherlockCode, Inc. is an information technology software service platform that investigates and verifies whether your work has been plagiarized. We have developed an incredibly
+                        <h2 class="title scroll-reveal-title">About </h2>
+                        <p class = "scroll-reveal-paragraph">SherlockCode, Inc. is an information technology software service platform that investigates and verifies whether your work has been plagiarized. We have developed an incredibly
                             efficient machine learning algorithm that utilizes both String Matching and Natural
                             Language Processing to increase the verification rate.
                         </p>
 
-                        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon-box wow scroll-reveal-paragraph" data-wow-delay="0.3s">
                             <div class="icon"><i class="fa fa-check"></i></div>
                             <h4 class="title"><a href="">Originality Verification</a></h4>
                             <p class="description">A common situation faced by today's modern creators
@@ -102,7 +101,7 @@
                                 your work and will provide a detailed report of any potentially stolen material. </p>
                         </div>
 
-                        <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="icon-box scroll-reveal-paragraph" data-wow-delay="0.3s">
                             <div class="icon"><i class="fa fa-check"></i></div>
                             <h4 class="title"><a href="">Tracking Content Misuse</a></h4>
                             <p class="description">Making sure your material is not being misused on the internet is
@@ -110,7 +109,7 @@
                                 produces a report showing every available result.</p>
                         </div>
 
-                        <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="icon-box scroll-reveal-paragraph" data-wow-delay="0.5s">
                             <div class="icon"><i class="fa fa-check"></i></div>
                             <h4 class="title"><a href=""></a>Deep Source Analysis</h4>
                             <p class="description">Our systems are able to reduced the field of candidates down to a
@@ -130,13 +129,13 @@
 
         <section id="features">
             <div class="container wow fadeIn">
-                <div class="section-header">
-                    <h3 class="section-title">Features</h3>
+                <div class="section-header scroll-reveal-title">
+                    <h3 class="section-title ">Features</h3>
                     <p class="section-description">Our state-of-the-art plagiarism technology</p>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.4s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-file-text-o"></i></a></div>
                             <h4 class="title"><a href="">PDF</a></h4>
@@ -144,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.6s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-align-center"></i></a></div>
                             <h4 class="title"><a href="">Text</a></h4>
@@ -152,7 +151,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.6s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-external-link"></i></a></div>
                             <h4 class="title"><a href="">URL</a></h4>
@@ -161,7 +160,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-4 col-md-6 scroll-reveal-paragraph fadeInUp" data-wow-delay="0.5s">
                         <div class="box">
                             <div class="icon"><a href=""><i class="fa fa-bar-chart-o"></i></a></div>
                             <h4 class="title"><a href="">Sherlock Score™️</a></h4>
@@ -177,7 +176,7 @@
 
         
         <section id="team">
-            <div class="container wow fadeInUp">
+            <div class="container scroll-reveal-paragraph fadeInUp">
                 <div class="section-header">
                     <h3 class="section-title">Contact</h3>
                     <p class="section-description">If anything here interests you, please feel free to reach out.</p>
@@ -264,13 +263,12 @@
     <div class="row">
         <div class="col-full">
 
-            <div class="footer-logo">
+            <div class="footer-logo scroll-reveal-title">
                 <a class="footer-site-logo" href="#0"><img width = "50px" height = "50px" src="img/logo.png" alt=""></a>
             </div>
 
             <ul class="footer-social">
-                <div class="social">
-                
+                <div class="social scroll-reveal-title">  
                     <a href="https://www.linkedin.com/in/dylanhnguyen/" target="_blank"><i class="fa fa-linkedin"></i></a>
                     <a href="https://github.com/thedigitalchief" target="_blank"><i class="fa fa-github"></i></a>
                     <a href="https://twitter.com/creadylan" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -349,6 +347,122 @@
 
     <!-- Template Main Javascript File -->
         <script src="js/main.js"></script>
+
+        <script>
+            ScrollReveal().reveal('.scroll-reveal', {
+                distance: '50px',
+                duration: 1000,
+                easing: 'ease-in-out',
+                mobile: true,
+                origin: 'bottom',
+                reset: true,
+                viewFactor: 0.4,
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-experience', {
+                duration: 1000,
+                scale: 1,
+                mobile: true,
+                distance: '20px',
+                origin: 'top',
+                reset: true,
+                easing: 'ease-in-out',
+                viewFactor: 0.2,
+
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-project', {
+                duration: 1000,
+                scale: 1,
+                mobile: true,
+                distance: '20px',
+                origin: 'top',
+                reset: true,
+                easing: 'ease',
+                viewFactor: 0.2,
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-title', {
+                duration: 1200,
+                scale: 1,
+                mobile: true,
+                distance: '25px',
+                origin: 'bottom',
+                reset: false,
+                easing: 'ease-in-out',
+                viewFactor: 0.2,
+
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-paragraph', {
+                duration: 1200,
+                scale: 1,
+                mobile: true,
+                distance: '20px',
+                origin: 'top',
+                reset: true,
+                easing: 'ease',
+                viewFactor: 0.2,
+
+            });
+
+
+            ScrollReveal().reveal('.scroll-reveal-pic', {
+                duration: 1000,
+                scale: 1,
+                mobile: true,
+                distance: '15px',
+                origin: 'top',
+                reset: false,
+                easing: 'ease',
+                viewFactor: 0.2,
+
+            });
+
+            ScrollReveal().reveal('.scroll-reveal-contact', {
+                duration: 1300,
+                scale: 1,
+                mobile: true,
+                distance: '15px',
+                origin: 'top',
+                reset: false,
+                easing: 'ease',
+                viewFactor: 0.2,
+            });
+
+
+            ScrollReveal().reveal('.scroll-reveal-stats', {
+                duration: 1500,
+                scale: 1,
+                mobile: true,
+                distance: '80px',
+                origin: 'bottom',
+                reset: false,
+                easing: 'ease-in-out',
+                viewFactor: 0.3,
+            });
+
+            ScrollReveal().reveal(".slide-right", {
+                duration: 1300,
+                origin: "top",
+                mobile: false,
+                distance: "5px",
+                easing: "ease",
+                reset: true,
+                viewFactor: 0.2,
+            });
+
+            ScrollReveal().reveal(".slide-left", {
+                duration: 1300,
+                origin: "top",
+                mobile: false,
+                distance: "5px",
+                easing: "ease",
+                reset: true,
+                viewFactor: 0.2,
+            });
+
+        </script>
 
 
 </body>
