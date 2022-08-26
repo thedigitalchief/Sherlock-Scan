@@ -642,7 +642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 50%;
 }
 
@@ -875,4 +875,186 @@ footer a:focus {
   .footer-social li i {
     font-size: 2.2rem;
   }
+}
+
+
+.s-contact {
+  width: 100%;
+  height: 100%;
+  min-height: 786px;
+  background-color: transparent;
+  position: relative;
+  display: table;
+  padding-top: 13.2rem;
+}
+
+.s-contact .shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .85;
+  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+}
+
+.s-contact .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .65;
+  background-color: #111111;
+}
+
+.s-contact .section-intro h1 {
+  color: #F2F3F5;
+}
+
+.s-contact .section-intro p {
+  color: rgba(255, 255, 255, 0.619);
+}
+
+.s-contact .section-intro.has-bottom-sep::after {
+  background-color: rgba(255, 255, 255, 0.378);
+}
+
+.s-contact .form-field {
+  position: relative;
+}
+
+.s-contact .form-field:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.s-contact .form-field label {
+  font-family: "montserrat-semibold", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2.4rem;
+  position: absolute;
+  bottom: -0.3rem;
+  right: .6rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  padding: 0 2rem;
+  margin: 0;
+  color: #F2F3F5;
+  background: #00316E;
+}
+
+.s-contact .form-field label::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  margin-top: -6px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #00316E;
+}
+
+.contact__main {
+  max-width: 900px;
+  position: relative;
+}
+
+.contact__main h4 {
+  color: #F2F3F5;
+}
+
+.contact__infos {
+  font-size: 1.5rem;
+}
+
+.contact__form {
+  padding-right: 40px;
+}
+
+.contact__form input[type="email"],
+.contact__form input[type="number"],
+.contact__form input[type="text"],
+.contact__form input[type="tel"],
+.contact__form input[type="url"],
+.contact__form textarea {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.56);
+  margin-bottom: .9rem;
+  color: rgb(255, 255, 255);
+}
+
+.contact__form input[type="email"]:focus,
+.contact__form input[type="number"]:focus,
+.contact__form input[type="text"]:focus,
+.contact__form input[type="tel"]:focus,
+.contact__form input[type="url"]:focus,
+.contact__form textarea:focus {
+  color: white;
+  border-bottom: 1px solid #F2F3F5;
+}
+
+.contact__form button {
+  margin-top: 4.2rem;
+  background-color: #00316E;
+  border-color: #00316E;
+}
+
+.message-warning,
+.message-success {
+  display: none;
+  background: #0D0A0B;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 3rem;
+  margin-bottom: 3.6rem;
+  width: 100%;
+}
+
+.message-warning {
+  color: #ff6163;
+}
+
+.message-success {
+  color: #008C2C;
+}
+
+.message-warning i,
+.message-success i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+
+/* form loader */
+
+.submit-loader {
+  display: none;
+  position: relative;
+  left: 0;
+  top: 1.8rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 4.2rem;
+}
+
+.submit-loader .text-loader {
+  display: none;
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.oldie .submit-loader .s-loader {
+  display: none;
+}
+
+.oldie .submit-loader .text-loader {
+  display: block;
 }

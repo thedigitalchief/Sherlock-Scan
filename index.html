@@ -172,31 +172,78 @@
         <section id="team">
             <div class="container wow fadeInUp">
                 <div class="section-header">
-                    <h3 class="section-title">Our Team</h3>
-                    <p class="section-description">Developed by Dylan Nguyen</p>
+                    <h3 class="section-title">Contact</h3>
+                    <p class="section-description">If anything here interests you, please feel free to reach out.</p>
                 </div>
 
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="Dylan profile pic"><img src="./img/team-1.jpg" alt=""></div>
-                            <h4>Dylan Nguyen</h4>
-                            <span>Computer Science Undergraduate</span>
-                            <span>https://dylanhnguyen.com</span>
-                            <div class="social">
-
-                                <a href="https://www.linkedin.com/in/dylanhnguyen/" target="_blank"><i
-                                        class="fa fa-linkedin"></i></a>
-                                <a href="https://github.com/thedigitalchief" target="_blank"><i
-                                        class="fa fa-github"></i></a>
-                                <a href="https://twitter.com/creadylan" target="_blank"><i
-                                        class="fa fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/dylannguyenn target=" _blank"><i
-                                        class="fa fa-facebook"></i></a>
-
-                            </div>
+                <div class="row contact__main">
+                
+                    <div class="col-eight tab-full contact__form scroll-reveal-contact">
+                        <form name="contactForm" id="contactForm" method="post" action="">
+                            <fieldset>
+                
+                                <div class="form-field scroll-reveal">
+                                    <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+                                        required="" aria-required="true" class="full-width">
+                                </div>
+                                <div class="form-field scroll-reveal">
+                                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required=""
+                                        aria-required="true" class="full-width">
+                                </div>
+                                <div class="form-field scroll-reveal">
+                                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                                        class="full-width">
+                                </div>
+                                <div class="form-field scroll-reveal">
+                                    <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="8" cols="50"
+                                        required="" aria-required="true" class="full-width"></textarea>
+                                </div>
+                
+                                <div class="form-field scroll-reveal-contact">
+                                    <button class="full-width btn--primary">Submit</button>
+                                    <div class="submit-loader">
+                                        <div class="text-loader">Sending...</div>
+                                        <div class="s-loader">
+                                            <div class="bounce1"></div>
+                                            <div class="bounce2"></div>
+                                            <div class="bounce3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </fieldset>
+                        </form>
+                
+                        <!-- contact-warning -->
+                        <div class="message-warning">
+                            Something went wrong. Please try again.
                         </div>
+                
+                        <!-- contact-success -->
+                        <div class="message-success">
+                            Your message was sent, thank you!<br>
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="col-four tab-full contact__infos">
+                        <h4 class="h06m scroll-reveal-contact">Phone</h4>
+                        <p> <a href="tel:9498422889">
+                                <font color="#FFFFFF">949.842.2889</font> <br>
+                            </a>
+                        </p>
+                
+                        <h4 class="h06 scroll-reveal-contact">Email</h4>
+                        <p> <a href="mailto: me@dylanhnguyen.com">
+                                <font color="#FFFFFF">me@dylanhnguyen.com </font> <br>
+                            </a>
+                        </p>
+                
+                        <h4 class="h06 scroll-reveal-contact">Location</h4>
+                        <p>
+                            <font color="#FFFFFF">Irvine, California</font>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -268,6 +315,27 @@
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- JavaScript Libraries -->
+
+<script src="js/plugins.js"></script>
+
+
+
+<!--Lottie aniations-->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- React.JS  -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<!-- To Load our React component. 
+        <script src="my_component.js"></script>
+        <script src="like_button.js"></script> -->
+
+<!-- JSX -->
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
